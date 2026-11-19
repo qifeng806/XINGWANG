@@ -1,0 +1,23 @@
+# 构建产物（build、build-tests、build-verify、build-tests-*-verify 等）
+build*/
+.qtcreator/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+Makefile
+Makefile.*
+.qmake.stash
+moc_*.cpp
+moc/
+obj/
+release/
+debug/
+*.pro.user
+*.pro.user.*
+
+# 临时/辅助文件
+.smoke/
+tools/__pycache__/
+*.pyc
